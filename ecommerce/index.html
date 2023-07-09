@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        nav{
+            background-color: black;
+        }
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body{
+            background-color: wheat;
+            font-family: 'Ubuntu', sans-serif; 
+            height: 1250px;
+        }
+
+       .container ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            
+
+            
+        }
+
+        .container ul li {
+            margin: 10px 10px ;
+            border-radius: 5px;
+            padding: 19px 82px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+       a:hover{
+        background-color: wheat;
+       }
+
+       #placeholder{
+        height: 33px;
+        margin-top: 19px;
+        margin-left: 149px;
+        border-radius: 8px;
+       }
+
+    /* styling divs from here  */
+    .maindivison{
+        display: flex;
+
+    }
+    .childdivs{
+        border: 2px solid black;
+    height: 400px;
+    width: 354px;
+    background-color: white;
+    margin-left: 23px;
+    margin-top: 13px;
+    border-radius: 9px;
+    }
+
+    #one{
+        background-image: url(assets/Sseries.webp);
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: center;
+    }
+
+    #two{
+        background-image: url(assets/A34sma.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: center;
+
+    }
+
+    #three{
+        background-image: url(assets/Sseries.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: center;
+
+    }
+
+    #four{
+        background-image: url(assets/A34sma.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: center;
+
+    }
+
+    /* button  */
+    .button{
+        border: 2px solid black;
+        margin-top: 85%;
+        margin-left: 42px;
+        height: 37px;
+        width: 111px;
+        border-radius: 10px;
+      }
+
+      .heading{
+        height: 20px;
+        width: 200px;
+        margin: auto;
+        margin-top: 25px;
+      }
+
+      /* footer coding starts here : */
+      .footer{
+        border: 2px solid black;
+        margin-top: 15px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+      }
+
+      .headingtwo{
+        height: 50px;
+        width: 600px;
+        margin: auto;
+        margin-top: 10px;
+      }
+
+      .para{
+        height: 200px;
+        margin: 10px 10px;
+        text-align: justify;
+      }
+
+      /* media queries for resposnive */
+      /* CSS for mobile devices (up to 600px) */
+/* @media screen and (max-width: 600px) {
+  .container ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container ul li {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  #placeholder {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .maindivison {
+    flex-wrap: wrap;
+  }
+
+  .childdivs {
+    margin: 10px auto;
+  }
+
+  .button {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+/* CSS for larger devices */
+@media screen and (min-width: 601px) {
+  .maindivison {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .childdivs {
+    margin: 10px;
+  }
+} */
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pricings</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <input type="text" name="" id="placeholder" placeholder="Search">
+            </nav>
+            </ul>
+
+    </header>
+
+    
+    <!-- starting with the divs now !  -->
+    <div class="maindivison">
+        <div class="childdivs" id="one">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button" >Buy Now</button>
+            <button class="button" >Add to Cart</button>
+
+        </div>
+        <div class="childdivs" id="two">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button" >Buy</button>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="childdivs" id="three">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button">Buy</button>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="childdivs" id="four">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button">Buy</button>
+            <button class="button">Add to Cart</button>
+        </div>
+        
+    </div>
+    <br>
+    <div class="maindivison">
+        <div class="childdivs" id="one">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button" >Buy Now</button>
+            <button class="button" >Add to Cart</button>
+
+        </div>
+        <div class="childdivs" id="two">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button" >Buy</button>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="childdivs" id="three">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button">Buy</button>
+            <button class="button">Add to Cart</button>
+        </div>
+        <div class="childdivs" id="four">
+            <h4 class="heading" >Samsung Galaxy S6 Pro</h4>
+            <button class="button">Buy</button>
+            <button class="button">Add to Cart</button>
+        </div>
+    </div>
+
+<!-- footer starts here  -->
+    <footer>
+       <div class="footer">
+        <h2 class="headingtwo">Terms and Conditions & Refund Policies of our website </h2>
+        <p class="para
+        ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quas repudiandae vitae nemo eum unde optio sapiente cum exercitationem beatae, ratione excepturi adipisci alias quam minus aliquam voluptatem perferendis! Id atque vitae est ea similique blanditiis eius. Illum suscipit nostrum facilis laudantium id officiis fugiat totam ipsum nemo, accusamus obcaecati? Tempore, veniam hic. Sequi temporibus qui exercitationem consequuntur sed ipsa beatae modi rem at veritatis non delectus alias, aspernatur error. Iste tempore sed iure repudiandae doloribus voluptatem repellendus commodi quibusdam odit facere nemo vel rerum laudantium, sunt at inventore distinctio eum cupiditate eligendi ullam? Voluptas quae fugit vel. Sint, id.
+        </p>
+       </div>
+    </footer>
+</body>
+</html>
